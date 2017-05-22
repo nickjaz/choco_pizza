@@ -1,0 +1,199 @@
+
+/*global styles*/
+
+.clearfix {
+  clear: both;
+}
+
+/*header*/
+
+header {
+  width: 960px;
+  height: 100px;
+  margin: 30px auto;
+  position: relative;
+}
+
+header img {
+  float: left;
+}
+
+h1 {
+  font-size: 38px;
+  font-family: 'Grand Hotel', cursive;
+  font-weight: bold;
+  font-style: italic;
+  position: absolute;
+  top: 0px;
+  left: 46px;
+}
+
+header p {
+  position: absolute;
+  top: 37px;
+  left: 50px;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #888;
+}
+
+header nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+header nav li {
+  display: inline-block;
+}
+
+header nav li:nth-child(7) {
+  margin-left: 6px;
+}
+
+header .spacer {
+  position: absolute;
+  bottom: 0;
+  background: #888;
+  width: 960px;
+  height: 20px;
+}
+
+/*content*/
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 60px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+span {
+  width: 478px;
+  margin-top: 10px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #888;
+}
+
+.print {
+  text-align: right;
+}
+
+.print img {
+  margin-right: 5px;
+}
+
+.hero {
+  width: 960px;
+  margin-top: 30px;
+}
+
+article p {
+  text-indent: 30px;
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #888;
+}
+
+.check_list {
+  background: url("img/list-bg.png");
+  margin: 30px auto;
+  height: 300px;
+  width: 900px;
+}
+
+.check_list div {
+  margin-top: 36px;
+  width: 445px;
+  display: inline-block;
+}
+
+.check_list li {
+  margin-left: 80px;
+  line-height: 31px;
+  list-style: none;
+  font-family: 'Delius', serif;
+  color: #7F572F;
+}
+
+/*.last {
+  width: 290px;
+}*/
+
+.author_share {
+  height: 140px;
+  position: relative;
+  color: #888;
+}
+
+.author_share .spacer {
+  position: absolute;
+  top: 0px;
+  background: #888;
+  width: 960px;
+  height: 26px;
+
+}
+
+.author_share img {
+  position: absolute;
+  top: 50px;
+}
+
+.author_share h3 {
+  position: absolute;
+  top: 50px;
+  left: 86px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #888;
+}
+
+.author_share p {
+  width: 540px;
+  position: absolute;
+  top: 84px;
+  left: 86px;
+}
+
+button {
+  position: absolute;
+  top: 52px;
+  right: 2px;
+  padding: 10px 26px;
+  border: none;
+  color: #fff;
+  background: #FF7226;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+footer {
+  width: 960px;
+  margin: 30px auto;
+}
+
+.bar {
+  width: 460px;
+  height: 2px;
+  margin-bottom: 14px;
+  display: inline-block;
+  background-color: #ddd;
+}
+
+footer p {
+  margin-top: 14px;
+  text-align: center;
+  color: #ddd;
+  font-size: 14px;
+
+}
