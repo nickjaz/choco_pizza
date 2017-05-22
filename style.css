@@ -55,7 +55,7 @@ header nav li:nth-child(7) {
 header .spacer {
   position: absolute;
   bottom: 0;
-  background: #888;
+  background: url("img/border-img.png");
   width: 960px;
   height: 20px;
 }
@@ -138,9 +138,9 @@ article p {
 .author_share .spacer {
   position: absolute;
   top: 0px;
-  background: #888;
+  background: url("img/border-img.png");
   width: 960px;
-  height: 26px;
+  height: 20px;
 
 }
 
